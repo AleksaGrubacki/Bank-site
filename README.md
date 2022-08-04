@@ -1,4 +1,4 @@
-<center>Jednostavan banking website.</center>
+Jednostavan banking website.
 
 
 
