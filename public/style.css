@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    font-family: "Ubuntu","sans-serif";
+    height: 100%;
+    background-color:#F9F5EB;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.login{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius:10px;
+    background-color:#1C3879;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.active{
+    border-color: gray;
+}
+.login input{
+    display:block;
+    height: 50px;
+    width:400px;
+    margin:40px 0 0 0;
+    border: 0;
+    outline: none;
+    background-color:transparent;
+    font-size:20px;
+    color: #F9F5EB;
+    border-bottom:1px solid white;
+}
+.login input:focus{
+    transition: border-color 0.1s ease-in-out;
+    border-color: gray;
+}
+input:focus::placeholder{
+    color: gray;
+    transition:color 0.1s ease-in;
+}
+.login h1{
+    display: block;
+    position: absolute;
+    top: 23%;
+    color: #F9F5EB;
+}
+::placeholder{
+    font-weight: bold;
+    font-family: "Ubuntu","sans-serif";
+    font-size:15px;
+    color: white;
+}
+.login button{
+    transform: translateX(40%);
+    height: 70px;
+    width: 200px;
+    font-size:25px;
+    margin-top:50px;
+    border:0;
+    font-weight: 400;
+    background-color:transparent;
+    border-radius:7px;
+    color:black;
+}
+.login button:hover{
+    transition: all 0.5s ease-in-out;
+    background-color:#002B5B;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #F9F5EB;
+}
